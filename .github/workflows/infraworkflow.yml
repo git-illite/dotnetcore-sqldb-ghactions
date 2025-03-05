@@ -20,6 +20,7 @@ jobs:
     build-and-deploy-to-dev:
       runs-on: ubuntu-latest
       steps:
+        
                   
       # Please refer to https://github.com/Azure/login#configure-deployment-credentials for help on the Azure login action and setting up your secrets 
       # This template also deploys the resourcegroup and not only the resources within the resource group. For this to work, your service principal needs access on the subscription level. You can create the service principal through: 
